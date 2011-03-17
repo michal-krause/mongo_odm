@@ -223,8 +223,6 @@ class Boolean
       true
     when /^\s*f/i, "0"
       false
-    when /^0$/
-      false
     else
       value.present?
     end
